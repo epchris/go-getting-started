@@ -26,6 +26,7 @@ stack = "cnb"
 
 [com.heroku.stages.review.env]
 SOME_KEY = "value"
+ANOTHER_KEY = "another value"
 SECRET_TOKEN = { description = "A secret key for verifying the integrity of signed cookies.", generator = "secret" }
 
 [com.heroku.stages.review.formation]
